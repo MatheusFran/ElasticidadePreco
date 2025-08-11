@@ -15,7 +15,7 @@ def categoricalDistri(df, list_features):
             ax=ax[i],
             data=df,
             x=feature,
-            palette=sns.color_palette("viridis"),
+            palette=sns.color_palette("viridis",i),
             order=df[feature].value_counts().sort_values(ascending=False).index
         )
         ax[i].set_xlabel(feature)
