@@ -1,11 +1,48 @@
 # Elasticidade de Preço - sobre o projeto:
 
+---
 ### Problema:
-O CEO da Chocolatier Inc. desconfia que a empresa está "deixando dinheiro na mesa", principalmente com itens de alto giro. No último semestre, o aumento da demanda acendeu um alerta positivo: a diretoria comercial propôs uma estratégia para aumentar o ticket médio. No entanto, existe um receio legítimo — perder clientes sensíveis a preço e terminar com um estoque encalhado.
+A empresa Chocolatier Inc. atua no varejo de chocolates e deseja maximizar seu 
+faturamento sem perder clientes por conta de aumentos de preço mal calibrados. 
 
+Como podemos prever e otimizar a elasticidade-preço dos produtos de 
+chocolate para aumentar o ticket médio e, ao mesmo tempo, minimizar a
+queda na demanda?
+
+---
 ### Objetivos:
 
-- Identificar insights sobre os produtos relacionados a  giro e faturamento
-- Criar modelo de elasticidade de preços para verificar quais produtos são mais propensos ao aumento de ticket
-- Mostrar impactos financeiro sobre a descisão de aumento de ticket médio
+_- Quantificar a elasticidade-preço por produto, região e segmento de vendedor._
+_- Identificar produtos com elasticidade baixa e alta._
+- Criar modelo preditivo que estime a demanda em função do preço.
+- Avaliar impacto financeiro esperado para diferentes estratégias de precificação.
+- Sugerir ações para aumentar o ticket médio e faturamento com base no modelo.
 
+---
+### Métricas e KPI´s:
+
+~~- Elasticidade-preço estimada (coeficiente de variação percentual da demanda em relação ao preço).~~
+~~- Variação percentual no ticket médio (Amount / Boxes Shipped).~~
+- Receita total projetada após mudanças simuladas de preço.
+- Taxa de erro do modelo preditivo (RMSE, MAE).
+
+### Perguntas de stakeholders:
+- Produtos premium que suportam aumento de preço sem perda significativa de vendas.
+- Produtos sensíveis que devem ser mantidos com preços competitivos.
+- Regiões que respondem melhor a promoções ou aumentos.
+- Segmentos de vendedores com comportamento diferenciado.
+
+---
+## Principais Insights:
+
+
+---
+## Modelagem
+
+---
+
+## Modelo Web
+
+--- 
+
+## Contato:
