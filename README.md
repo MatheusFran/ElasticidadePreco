@@ -12,17 +12,17 @@ queda na demanda?
 ---
 ### Objetivos:
 
-_- Quantificar a elasticidade-preço por produto, região e segmento de vendedor._
-_- Identificar produtos com elasticidade baixa e alta._
-- Criar modelo preditivo que estime a demanda em função do preço.
+- Quantificar a elasticidade-preço por produto, região e segmento de vendedor.
+- Identificar produtos com elasticidade baixa e alta.
+- Criar modelo preditivo que estime a demanda em função do preço. Usar RandomForestRegression
 - Avaliar impacto financeiro esperado para diferentes estratégias de precificação.
 - Sugerir ações para aumentar o ticket médio e faturamento com base no modelo.
 
 ---
 ### Métricas e KPI´s:
 
-~~- Elasticidade-preço estimada (coeficiente de variação percentual da demanda em relação ao preço).~~
-~~- Variação percentual no ticket médio (Amount / Boxes Shipped).~~
+- Elasticidade-preço estimada (coeficiente de variação percentual da demanda em relação ao preço)
+- Variação percentual no ticket médio (Amount / Boxes Shipped).
 - Receita total projetada após mudanças simuladas de preço.
 - Taxa de erro do modelo preditivo (RMSE, MAE).
 

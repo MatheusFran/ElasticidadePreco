@@ -9,4 +9,7 @@ matplotlib
 seaborn
 scikit-learn
 scipy
+mlflow
+streamlit
+ploty
 -e .

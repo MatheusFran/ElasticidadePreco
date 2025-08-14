@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import math
+import pandas as pd
 
 
 def categoricalDistri(df, list_features):
@@ -54,9 +55,6 @@ def numericalDistri(df, list_features, colunas, logScale=False):
     plt.tight_layout()
     plt.show()
 
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
 
 def bivariate_analysis(df, var_x, var_y):
     """
@@ -65,6 +63,7 @@ def bivariate_analysis(df, var_x, var_y):
     # Verificar tipos
     is_x_num = pd.api.types.is_numeric_dtype(df[var_x])
     is_y_num = pd.api.types.is_numeric_dtype(df[var_y])
+    palette = sns.dark_palette("#79C")
 
     if is_x_num and is_y_num:
         # Numérica × Numérica
@@ -84,7 +83,7 @@ def bivariate_analysis(df, var_x, var_y):
         sns.boxplot(data=df, x=var_x, y=var_y)
         sns.stripplot(data=df, x=var_x, y=var_y, color="black", alpha=0.3)
         plt.title(f"{var_y} por {var_x}")
-        plt.xticks(rotation=45)
+        plt.xticks(rotation=90)
         plt.show()
 
     else:
@@ -94,3 +93,5 @@ def bivariate_analysis(df, var_x, var_y):
         sns.heatmap(ctab, annot=True, fmt="d", cmap="Blues")
         plt.title(f"Frequência cruzada de {var_x} e {var_y}")
         plt.show()
+
+
